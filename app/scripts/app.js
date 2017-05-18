@@ -36,6 +36,11 @@ angular
         controller: 'ServiceexeCtrl',
         controllerAs: 'serviceExe'
       })
+      .when('/factoryExe', {
+        templateUrl: 'views/factoryexe.html',
+        controller: 'FactoryexeCtrl',
+        controllerAs: 'factoryExe'
+      })
       .otherwise({
         redirectTo: '/'
       });
