@@ -1,2 +1,0 @@
-# angularjs
-Preparations and examples
