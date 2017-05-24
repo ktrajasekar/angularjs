@@ -9,9 +9,14 @@
  */
 angular.module('exeApp')
   .controller('AboutCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+
+
   });
+
+
+  angular.module('exeApp').directive("myWidget", function() {
+return {
+restrict: "E",
+template: "<p>Hello World</p>"
+};
+});
